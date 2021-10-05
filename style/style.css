@@ -1,5 +1,36 @@
+.container {
+	margin-top: 30px;
+}
+
+body {
+	background-color: #e5e5e5;
+}
+.player-h3,
+.blog-h3,
+.latest-h3 {
+	color: #562eff;
+}
+.player-h3 {
+	padding-top: 50px;
+}
+main {
+	width: 870px;
+}
+
+.brand-logo {
+	margin-left: 90px;
+}
 .navbar img {
 	width: 40px;
+}
+.container-section img {
+	width: 40px;
+}
+.top-blog img {
+	width: 177px;
+}
+#navbarText {
+	margin-right: 240px;
 }
 .nav-item a {
 	color: white !important;
@@ -9,4 +40,34 @@
 }
 .header-text {
 	color: white;
+}
+.card-section {
+	width: 870px;
+}
+
+.card-text {
+	color: #ed6b4f;
+}
+.card-footer img {
+	width: 15px;
+}
+.footer-span-1 {
+	color: #a2a2a2;
+}
+.footer-span-2 {
+	color: #ed6b4f;
+}
+/* .footer-clock-img {
+	margin-left: 45px;
+} */
+.footer-span-img {
+	background-color: rgba(255, 74, 96, 0.2);
+	border-radius: 10px;
+	margin-left: 40px;
+}
+.footer-para {
+	text-align: center;
+	font-size: 12px;
+	color: grey;
+	margin-top: 30px;
 }
