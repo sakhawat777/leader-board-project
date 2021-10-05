@@ -1,0 +1,54 @@
+/* 
+  ## ShortCut For all Device (BeackPoint=768px) 
+  ##Screen = 767px to lower resolution device
+*/
+
+@media (max-width: 768px) {
+	.player-h3,
+	.blog-h3,
+	.latest-h3 {
+		text-align: center;
+	}
+	#navbarText {
+		padding-left: 130px;
+	}
+	.top-player-img-h6 {
+		padding-left: 60px;
+	}
+}
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+	.player-h3,
+	.blog-h3,
+	.latest-h3 {
+		text-align: center;
+	}
+	#navbarText {
+		padding-left: 130px;
+	}
+	.top-player-img-h6 {
+		padding-left: 60px;
+	}
+}
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+	.player-h3,
+	.blog-h3,
+	.latest-h3 {
+		text-align: center;
+	}
+	#navbarText {
+		padding-left: 130px;
+	}
+	.top-player-img-h6 {
+		padding-left: 60px;
+	}
+}

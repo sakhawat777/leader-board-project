@@ -2,8 +2,14 @@
 	margin-top: 30px;
 }
 
+html,
 body {
 	background-color: #e5e5e5;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
 }
 .player-h3,
 .blog-h3,
@@ -14,7 +20,7 @@ body {
 	padding-top: 50px;
 }
 main {
-	width: 870px;
+	width: 100%;
 }
 
 .brand-logo {
@@ -42,14 +48,18 @@ main {
 	color: white;
 }
 .card-section {
-	width: 870px;
+	width: 100%;
 }
 
 .card-text {
 	color: #ed6b4f;
 }
+
 .card-footer img {
 	width: 15px;
+}
+.star-img {
+	background-color: gray;
 }
 .footer-span-1 {
 	color: #a2a2a2;
@@ -58,12 +68,11 @@ main {
 	color: #ed6b4f;
 }
 /* .footer-clock-img {
-	margin-left: 45px;
+	padding-left: 100px;
 } */
 .footer-span-img {
 	background-color: rgba(255, 74, 96, 0.2);
 	border-radius: 10px;
-	margin-left: 40px;
 }
 .footer-para {
 	text-align: center;
